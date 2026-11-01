@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Movie Explorer</h1>
+    <p>Discover your next favourite movie.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Find your next movie</h2>
+
+      <input
+        type="text"
+        placeholder="Search movies..."
+        id="movie-search"
+      >
+
+      <p id="search-message"></p>
+      <p id="backend-message"></p>
+
+      <button id="search-button">Search</button>
+    </section>
+
+    <section>
+      <h2>Movie results</h2>
+
+      <div id="movies-container"></div>
+
+<div id="movie-details">
+  <button id="close-details">Close</button>
+
+  <div id="movie-details-content"></div>
+</div>
+    </section>
+    <section>
+  <h2>❤️ My Favourite Movies</h2>
+
+  <div id="favourites-container"></div>
+</section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
