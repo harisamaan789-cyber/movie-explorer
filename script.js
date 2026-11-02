@@ -117,7 +117,7 @@ searchButton.addEventListener("click", function() {
 
   searchMessage.textContent = "Searching for movie names...";
 
-  fetch("https://movie-explorer-lh0s.onrender.com/api/movies?movie=" + encodeURIComponent(movieName))
+  fetch("https://movie-explorer-1h0s.onrender.com/api/movies?movie=" + encodeURIComponent(movieName))
 
     .then(response => {
 
